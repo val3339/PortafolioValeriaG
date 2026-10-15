@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <style>
+body {
+  background-color: #f3f0fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+    }
+     .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 12px 24px;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        max-width: 900%;
+        margin: 0 auto;
+    }
+    .logo {
+       font-weight: bold;
+       font-size: 1.1rem;
+       color: #1a1a1a;
+    }
+    .nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.nav-item.active {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 1.5px solid #dcd0ff;
+  box-shadow: 0 0 10px rgba(147, 112, 219, 0.3);
+}
+footer{
+  background-color: #bcaee4;
+  text-align: center;
+}
+    </style> 
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header class="navbar">
+  <div class="logo">Mi Portafolio</div>
+     <nav class="nav-links">
+    <a href="#inicio" class="nav-item active">Inicio</a>
+    <a href="#proyectos" class="nav-item">Proyectos</a>
+    <a href="#contacto" class="nav-item">Contacto</a>
+    </nav>
+    <img src="imagen.jpg/yo.png" width="200" height="200">
+    <h1 id="inicio">Sobre mi</h1>
+    <p>Valeria Ghodsian, estudiante. Tengo 15 años, vivo en Encarnacion, Paraguay y estudio en el Colegio Bautista en el 1º año de bachiller informatico. Me gusta dibujar, leer, ver series y escuchar musica. Estudio las bases de la programación y la computación, los sistemas operativos, la arquitectura de hardware, el procesamiento de datos y diseño, estoy intentando aprender a dibujar en digital y a animar un modelo en Blockbench. Me gustaria en un futuro trabajar en Diseño y Animacion Digital y tambien ser maestra de primaria por un tiempo. Los proyectos en que participe fueron AiDerm una pagina web donde se podia detectar la probabilidad de tener un melanoma en la piel sacandole foto al lunar, y Ojo Urbano una pagina web donde se podian hacer reportes sobre problemas urbanos de la ciudad.</p>
+    <a href="https://github.com/">Github</a>
+    <a href="https://www.linkedin.com/in/valeria-ghodsian-395a69443/?isSelfProfile=true">LinkedIn</a>
+    <h1 id="proyectos"> Proyectos</h1>
+    <h2>Ojo Urbano</h2>
+    <img src="imagen.jpg/ob.jpeg" width="200" height="200">
+    <p>El proyecto “Ojo Urbano” surge en un contexto donde la ciudad sufre problemáticas urbanas como baches, cortes de luz, robos y inseguridad, donde muchas veces la comunicación entre las autoridades y los ciudadanos es disfuncional. El propósito central es analizar la utilidad, funcionalidad e impacto de una plataforma web interactiva basada en mapas, diseñada para que los ciudadanos puedan reportar y visualizar las problemáticas urbanas.</p>
+    <h1 id="contacto">Contacto</h1>
+    <P>Telefono: 0982 953997</P>
+  </header>
+  <footer>
+    <p>Valeria Ghodsian - 1ºBTI - Portafolio 2026</p>
+  </footer>
+</body>
+</html>
